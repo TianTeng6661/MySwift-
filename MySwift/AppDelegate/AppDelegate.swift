@@ -16,6 +16,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds);
+        window?.backgroundColor = UIColor.white
+        
+        //let version:String = (Bundle.main.infoDictionary?["CFBundleShortVersionString"] as?String)!
+        let localVersion:String? = UserDefaults.standard.string(forKey: "notFirst")
+            //UserDefaults.standard.object(forKey: "notFirst")
+        let currentVersion:String = (Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String)!
+        if(localVersion == currentVersion){
+            
+            let tabbar = BaseBarViewController()
+            window?.rootViewController = tabbar
+        }else{
+            window?.rootViewController = GuidepagesViewController()
+        }
+        
+        //let tabbar = BaseBarViewController()
+        //window?.rootViewController = tabbar
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
