@@ -10,12 +10,20 @@
 		1225DDE30BF1CC2F9A0BC810 /* Pods_MySwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5F2BF36CF72D049478866D /* Pods_MySwiftUITests.framework */; };
 		330C97A08B30F024667FFF9C /* Pods_MySwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD1960DB9B4A1522E753BAD /* Pods_MySwiftTests.framework */; };
 		C92815E22C6EBBF9426766DD /* Pods_MySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91F186E509E6602DA1237CE /* Pods_MySwift.framework */; };
+		EE17F8F422545FB6006DD3AF /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE17F8F322545FB6006DD3AF /* SVProgressHUD.framework */; };
+		EE1ABA6D225F236B00233854 /* StudentClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1ABA6C225F236B00233854 /* StudentClass.swift */; };
+		EE203DDD225314D700D5E900 /* TTAlamoNetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE203DDC225314D700D5E900 /* TTAlamoNetWorkTool.swift */; };
+		EE203DE0225335CA00D5E900 /* TTUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE203DDF225335CA00D5E900 /* TTUtil.swift */; };
 		EE31EB22224A27CB00F9F5BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE31EB21224A27CB00F9F5BF /* AppDelegate.swift */; };
 		EE31EB27224A27CB00F9F5BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE31EB25224A27CB00F9F5BF /* Main.storyboard */; };
 		EE31EB29224A27CD00F9F5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE31EB28224A27CD00F9F5BF /* Assets.xcassets */; };
 		EE31EB2C224A27CD00F9F5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE31EB2A224A27CD00F9F5BF /* LaunchScreen.storyboard */; };
 		EE31EB37224A27CD00F9F5BF /* MySwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE31EB36224A27CD00F9F5BF /* MySwiftTests.swift */; };
 		EE31EB42224A27CD00F9F5BF /* MySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE31EB41224A27CD00F9F5BF /* MySwiftUITests.swift */; };
+		EE5F4AF92266C772004F2F8D /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5F4AF82266C772004F2F8D /* ImageCollectionViewCell.swift */; };
+		EE5F4AFB22671633004F2F8D /* ImageDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5F4AFA22671633004F2F8D /* ImageDetailController.swift */; };
+		EE5F4AFD22671911004F2F8D /* ImageDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5F4AFC22671911004F2F8D /* ImageDetailCell.swift */; };
+		EE5F4B0022673911004F2F8D /* HomeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5F4AFF22673911004F2F8D /* HomeAnimation.swift */; };
 		EE60987E224C967100F85530 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE60987D224C967100F85530 /* BaseViewController.swift */; };
 		EE609880224C970B00F85530 /* BaseBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE60987F224C970B00F85530 /* BaseBarViewController.swift */; };
 		EE60988E224CAE0600F85530 /* PrefixFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE60988D224CAE0600F85530 /* PrefixFile.swift */; };
@@ -25,6 +33,11 @@
 		EE60989C224CB98600F85530 /* MyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE60989B224CB98600F85530 /* MyController.swift */; };
 		EE60989F224CDBB600F85530 /* BaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE60989E224CDBB600F85530 /* BaseNavViewController.swift */; };
 		EE8C2038224E0FB900885893 /* GuidepagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8C2037224E0FB900885893 /* GuidepagesViewController.swift */; };
+		EE8E58E72265BBDA009BF2E4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8E58E62265BBDA009BF2E4 /* Person.m */; };
+		EE8E58EA2265BE7A009BF2E4 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8E58E92265BE7A009BF2E4 /* Cat.m */; };
+		EEDC03222252011B002771D4 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDC03212252011B002771D4 /* HomeCell.swift */; };
+		EEDC032422520D59002771D4 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDC032322520D59002771D4 /* HomeModel.swift */; };
+		EEDC032622521D25002771D4 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDC032522521D25002771D4 /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +80,11 @@
 		D04EC71D0B8AD268E9B38221 /* Pods-MySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MySwift/Pods-MySwift.release.xcconfig"; sourceTree = "<group>"; };
 		E1CE0E15B8729FE7982409F6 /* Pods-MySwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MySwiftTests/Pods-MySwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		ECFAAF2D33B154001F14F60E /* Pods-MySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MySwift/Pods-MySwift.debug.xcconfig"; sourceTree = "<group>"; };
+		EE17F8F222545E46006DD3AF /* MySwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MySwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		EE17F8F322545FB6006DD3AF /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1ABA6C225F236B00233854 /* StudentClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentClass.swift; sourceTree = "<group>"; };
+		EE203DDC225314D700D5E900 /* TTAlamoNetWorkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTAlamoNetWorkTool.swift; sourceTree = "<group>"; };
+		EE203DDF225335CA00D5E900 /* TTUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTUtil.swift; sourceTree = "<group>"; };
 		EE31EB1E224A27CB00F9F5BF /* MySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE31EB21224A27CB00F9F5BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE31EB26224A27CB00F9F5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -79,6 +97,10 @@
 		EE31EB3D224A27CD00F9F5BF /* MySwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE31EB41224A27CD00F9F5BF /* MySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUITests.swift; sourceTree = "<group>"; };
 		EE31EB43224A27CD00F9F5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE5F4AF82266C772004F2F8D /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		EE5F4AFA22671633004F2F8D /* ImageDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailController.swift; sourceTree = "<group>"; };
+		EE5F4AFC22671911004F2F8D /* ImageDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailCell.swift; sourceTree = "<group>"; };
+		EE5F4AFF22673911004F2F8D /* HomeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnimation.swift; sourceTree = "<group>"; };
 		EE60987D224C967100F85530 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		EE60987F224C970B00F85530 /* BaseBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseBarViewController.swift; sourceTree = "<group>"; };
 		EE60988D224CAE0600F85530 /* PrefixFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefixFile.swift; sourceTree = "<group>"; };
@@ -88,6 +110,13 @@
 		EE60989B224CB98600F85530 /* MyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyController.swift; sourceTree = "<group>"; };
 		EE60989E224CDBB600F85530 /* BaseNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavViewController.swift; sourceTree = "<group>"; };
 		EE8C2037224E0FB900885893 /* GuidepagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidepagesViewController.swift; sourceTree = "<group>"; };
+		EE8E58E52265BBDA009BF2E4 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		EE8E58E62265BBDA009BF2E4 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		EE8E58E82265BE7A009BF2E4 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		EE8E58E92265BE7A009BF2E4 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		EEDC03212252011B002771D4 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		EEDC032322520D59002771D4 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		EEDC032522521D25002771D4 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE17F8F422545FB6006DD3AF /* SVProgressHUD.framework in Frameworks */,
 				C92815E22C6EBBF9426766DD /* Pods_MySwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,11 +164,28 @@
 		E99D828DB87B0B7BF390BFE1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EE17F8F322545FB6006DD3AF /* SVProgressHUD.framework */,
 				C91F186E509E6602DA1237CE /* Pods_MySwift.framework */,
 				0BD1960DB9B4A1522E753BAD /* Pods_MySwiftTests.framework */,
 				0D5F2BF36CF72D049478866D /* Pods_MySwiftUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE203DDB2253142000D5E900 /* TTAlamo */ = {
+			isa = PBXGroup;
+			children = (
+				EE203DDC225314D700D5E900 /* TTAlamoNetWorkTool.swift */,
+			);
+			path = TTAlamo;
+			sourceTree = "<group>";
+		};
+		EE203DDE225335B000D5E900 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				EE203DDF225335CA00D5E900 /* TTUtil.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		EE31EB15224A27CB00F9F5BF = {
@@ -166,6 +213,7 @@
 		EE31EB20224A27CB00F9F5BF /* MySwift */ = {
 			isa = PBXGroup;
 			children = (
+				EE17F8F222545E46006DD3AF /* MySwift-Bridging-Header.h */,
 				EE31EB53224A29BC00F9F5BF /* Tools */,
 				EE31EB52224A29B500F9F5BF /* Images */,
 				EE31EB51224A29AC00F9F5BF /* Classes */,
@@ -238,6 +286,9 @@
 		EE31EB53224A29BC00F9F5BF /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				EE5F4AFE226738F0004F2F8D /* Animate */,
+				EE203DDE225335B000D5E900 /* Util */,
+				EE203DDB2253142000D5E900 /* TTAlamo */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -256,6 +307,7 @@
 			isa = PBXGroup;
 			children = (
 				EE609895224CB95500F85530 /* HomeController.swift */,
+				EEDC032522521D25002771D4 /* DetailController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -263,6 +315,7 @@
 		EE31EB56224A2A1100F9F5BF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EEDC032322520D59002771D4 /* HomeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -270,8 +323,17 @@
 		EE31EB57224A2A1100F9F5BF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EEDC03212252011B002771D4 /* HomeCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		EE5F4AFE226738F0004F2F8D /* Animate */ = {
+			isa = PBXGroup;
+			children = (
+				EE5F4AFF22673911004F2F8D /* HomeAnimation.swift */,
+			);
+			path = Animate;
 			sourceTree = "<group>";
 		};
 		EE609881224CACBF00F85530 /* MailList */ = {
@@ -320,6 +382,7 @@
 			isa = PBXGroup;
 			children = (
 				EE609899224CB97A00F85530 /* FindController.swift */,
+				EE5F4AFA22671633004F2F8D /* ImageDetailController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -334,6 +397,8 @@
 		EE609888224CACC400F85530 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EE5F4AF82266C772004F2F8D /* ImageCollectionViewCell.swift */,
+				EE5F4AFC22671911004F2F8D /* ImageDetailCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -359,6 +424,7 @@
 		EE60988B224CACC900F85530 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EE1ABA6C225F236B00233854 /* StudentClass.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -366,6 +432,10 @@
 		EE60988C224CACC900F85530 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EE8E58E52265BBDA009BF2E4 /* Person.h */,
+				EE8E58E62265BBDA009BF2E4 /* Person.m */,
+				EE8E58E82265BE7A009BF2E4 /* Cat.h */,
+				EE8E58E92265BE7A009BF2E4 /* Cat.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -383,6 +453,7 @@
 				EE31EB1C224A27CB00F9F5BF /* Resources */,
 				EE31EB5B224A2F0F00F9F5BF /* Embed Frameworks */,
 				235C914763E9BD7B400FBB3D /* [CP] Embed Pods Frameworks */,
+				BDDE3E8BC35CE5DB8CD1865E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -534,12 +605,28 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MySwift/Pods-MySwift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/LLCycleScrollView/LLCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/WebViewJavascriptBridge/WebViewJavascriptBridge.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebViewJavascriptBridge.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -590,6 +677,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BDDE3E8BC35CE5DB8CD1865E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MySwift/Pods-MySwift-resources.sh",
+				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MySwift/Pods-MySwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -597,16 +706,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5F4AFB22671633004F2F8D /* ImageDetailController.swift in Sources */,
 				EE8C2038224E0FB900885893 /* GuidepagesViewController.swift in Sources */,
 				EE609880224C970B00F85530 /* BaseBarViewController.swift in Sources */,
 				EE31EB22224A27CB00F9F5BF /* AppDelegate.swift in Sources */,
+				EEDC03222252011B002771D4 /* HomeCell.swift in Sources */,
+				EE8E58E72265BBDA009BF2E4 /* Person.m in Sources */,
 				EE60989F224CDBB600F85530 /* BaseNavViewController.swift in Sources */,
 				EE609898224CB96B00F85530 /* MailListController.swift in Sources */,
 				EE60989A224CB97A00F85530 /* FindController.swift in Sources */,
+				EE203DDD225314D700D5E900 /* TTAlamoNetWorkTool.swift in Sources */,
 				EE60987E224C967100F85530 /* BaseViewController.swift in Sources */,
+				EE203DE0225335CA00D5E900 /* TTUtil.swift in Sources */,
+				EE1ABA6D225F236B00233854 /* StudentClass.swift in Sources */,
+				EE5F4B0022673911004F2F8D /* HomeAnimation.swift in Sources */,
+				EE8E58EA2265BE7A009BF2E4 /* Cat.m in Sources */,
+				EEDC032622521D25002771D4 /* DetailController.swift in Sources */,
+				EEDC032422520D59002771D4 /* HomeModel.swift in Sources */,
 				EE60988E224CAE0600F85530 /* PrefixFile.swift in Sources */,
+				EE5F4AFD22671911004F2F8D /* ImageDetailCell.swift in Sources */,
 				EE609896224CB95500F85530 /* HomeController.swift in Sources */,
 				EE60989C224CB98600F85530 /* MyController.swift in Sources */,
+				EE5F4AF92266C772004F2F8D /* ImageCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -792,8 +913,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloudkitchen.mobile.MySwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MySwift/MySwift-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/SVProgressHUD";
 			};
 			name = Debug;
 		};
@@ -812,8 +935,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloudkitchen.mobile.MySwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MySwift/MySwift-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/SVProgressHUD";
 			};
 			name = Release;
 		};

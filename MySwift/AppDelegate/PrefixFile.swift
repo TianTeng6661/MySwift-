@@ -12,13 +12,17 @@ import Foundation
  公共的头文件
  */
 import UIKit
+import Alamofire
+
+
 
 
 /*
  公共的宏定义
  */
-let SCREENWIDTH = UIScreen.main.bounds.size.width
-let SCREENHEIGHT = UIScreen.main.bounds.size.height
+let SCREENBounds = UIScreen.main.bounds
+let SCREENWIDTH = SCREENBounds.size.width
+let SCREENHEIGHT = SCREENBounds.size.height
 //屏幕比例
 let kHCWLScale = (SCREENHEIGHT/667.0)
 let kWCWLScale = (SCREENWIDTH/375.0)
@@ -52,5 +56,12 @@ func imageNamed(_ name: String) -> UIImage? {
 }
 
 
-
+//Mark --修改状态栏颜色
+func setStatusBarBackgroundColor(color : UIColor) {
+    let statusBarWindow : UIView = UIApplication.shared.value(forKey: "statusBarWindow") as! UIView
+    let statusBar : UIView = statusBarWindow.value(forKey: "statusBar") as! UIView
+    if statusBar.responds(to:#selector(setter: UIView.backgroundColor)) {
+        statusBar.backgroundColor = color
+    }
+}
 

@@ -15,7 +15,7 @@ class BaseViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         view.backgroundColor = UIColor.white;
-        //navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.font:UIFont.systemFont(ofSize: 18),NSAttributedString.foregroundColor:UIColor.red];
+        
         
     }
     

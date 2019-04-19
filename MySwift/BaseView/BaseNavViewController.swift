@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BaseNavViewController: UINavigationController {
+class BaseNavViewController: UINavigationController,UIGestureRecognizerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +21,7 @@ class BaseNavViewController: UINavigationController {
         
     }
     
+    /*
     //获取当前控制器
     func getCurrentController()->UIViewController{
         
@@ -40,12 +41,26 @@ class BaseNavViewController: UINavigationController {
         return result!;
         
     }
-    
+ */
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         if(self.viewControllers.count>0){
             viewController.hidesBottomBarWhenPushed = true;
         }
         super.pushViewController(viewController, animated: true)
+        if(viewController.navigationItem.leftBarButtonItem==nil&&self.viewControllers .count>1){
+            
+            let item = UIBarButtonItem(title: "", style: .done, target: self, action: #selector(BaseNavViewController.popSelf))
+            //设置原始图片
+            let image = UIImage(named: "return")
+            item.image = image?.withRenderingMode(.alwaysOriginal);
+            viewController.navigationItem.leftBarButtonItem = item
+            //支持手势滑动
+        viewController.navigationController?.interactivePopGestureRecognizer?.delegate=self
+        }
+        
     }
-
+    @objc func popSelf(){
+        self.popViewController(animated: true)
+    }
+    
 }
